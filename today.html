@@ -19,8 +19,38 @@
             </ul>
     </div>
     <div id="content">
-        <!-- Page content will go here -->
+        <div class="content-container">
+            <h4 class="lesson-date">21.05.2023</h4>
+            <h1 class="lesson-title">Understanding CSS Positioning</h1>
+            <div class="lesson-body">
+                <p>Welcome to your first lesson at Bit By Bit! Today, we'll dive into one of the most fundamental aspects of CSS - the <code>position</code> property. It's crucial for controlling how elements are displayed and arranged on the page. By understanding the `position` property, you'll have a powerful tool to create flexible and responsive layouts. </p>
+    
+                <h2 class="subheading">Position Types</h2>
+                <p>The `position` property can take five different values: `static`, `relative`, `absolute`, `fixed`, and `sticky`. Let's break down what each of these means.</p>
+    
+                <h3 class="sub-subheading">Static Positioning</h3>
+                <p>This is the default value. A statically positioned element is always positioned according to the normal flow of the page.</p>
+    
+                <h3 class="sub-subheading">Relative Positioning</h3>
+                <p>A relatively positioned element is positioned relative to its normal position. This means you can move it left, right, up, or down from where it would usually be. Other elements won't adjust to fill the gap.</p>
+    
+                <h3 class="sub-subheading">Absolute Positioning</h3>
+                <p>An absolutely positioned element is positioned relative to the nearest positioned ancestor. If there's no positioned ancestor, it positions relative to the document body. This element is taken out of the normal document flow.</p>
+    
+                <h3 class="sub-subheading">Fixed Positioning</h3>
+                <p>A fixed position element is positioned relative to the browser window. It will not move even if the page is scrolled.</p>
+    
+                <h3 class="sub-subheading">Sticky Positioning</h3>
+                <p>A sticky positioned element is a hybrid of relative and fixed positioning. It is treated as relatively positioned until it crosses a certain threshold, at which point it is treated as fixed.</p>
+    
+                <h2 class="subheading">Understanding Stacking Context</h2>
+                <p>When you start moving elements out of the normal document flow, you'll also need to understand the stacking context - which elements appear on top of others. This is controlled by the `z-index` property, but `z-index` only works on positioned elements.</p>
+    
+                <p>That's it for today's lesson! You now have a solid understanding of CSS positioning. Try playing around with the different values to see how they work in practice. And remember, practice makes perfect! </p>
+            </div>
+        </div>
     </div>
+    
     <script src="script.js"></script>
 </body>
 </html>

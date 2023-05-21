@@ -150,7 +150,45 @@ body {
     margin-bottom: 20px;
 }
 
+.lesson-title {
+  
+    font-weight: bold;
+    color: #00a4b9; /* Light Blue */
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
 
+.sub-subheading 
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #00a4b9; /* Light Blue */
+    margin-bottom: 20px;
+}
+
+.lesson-body p {
+    color: #00a4b9; /* Light Blue */
+    text-indent: 5em; 
+    
+}
+
+.lesson-body {
+    text-align: left;
+   
+}
+
+code {
+    font-family: monospace;
+    background-color: #00a4b9;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+
+.lesson-date {
+    color: #78b2ba;
+}
 
 .preview, .mission {
     font-size: 16px;
